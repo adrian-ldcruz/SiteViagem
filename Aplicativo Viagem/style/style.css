@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}#corpo{
+    width: 440px;
+    height: 865px;
+    overflow: hidden;
+    background-image: url('../midia/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#titulo{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-right: 160px;
+    font-size: 1.4em;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    line-height: 1.2;
+}
+#titulo p{
+    font-size: 0.8em;
+    font-weight: 500;
+}
+#wordLogin{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #00000096;
+    border-radius: 50px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 300px;
+    margin-bottom: 10px;
+    padding-left: 17px;
+    letter-spacing: 2px;
+}
+#container{
+    padding-top: 1px;
+    background-color: #00000093;
+    height: 281px;
+}
+#user{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50px;
+    height: 55px;
+}
+#user i{
+    margin-right: 30px;
+    margin-top: 27px;
+}
+#user p{
+    color: rgba(0, 0, 0, 0.61);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#registrar{
+    display: flex;
+    justify-content: space-between;
+}
+#registrar p{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    background-color: #00000093;
+    border-radius: 50px;
+    height: 30px;
+    width: 190px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 2px;
+    text-align: center;
+}
+#midia{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+#midia a{
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+

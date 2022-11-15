@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}#corpo{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    width: 440px;
+    height: 865px;
+    overflow: hidden;
+    background-image: url('../midia/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#titulo{
+    margin-top: 40px;
+    margin-left: 30px;
+    padding-right: 160px;
+}
+#pesquisar{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#flecha{
+    background-color: #00000093;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+#flecha a{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+#container{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #000000a9;
+    height: 755px;
+}
+#campo-busca{
+    background-color: #000000a9;
+    color: #0000007a;
+    width: 275px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+#busca{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    height: 35px;
+    border-radius: 50px;
+    width: 265px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#busca i{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+#busca p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#for-you{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.8em; 
+}
+#for-you p{font-size: 1.15em;margin-left: 10px;}
+#destaque p{font-size: 1.15em;margin-left: 10px;}
+
+#destaque{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.8em;
+}
+img{
+    margin-left: 10px;
+    width: 180px;
+}
+h4{margin-left: 10px;margin-top: 5px;padding-bottom: 5px;font-weight: 100;}
+
+#convidar{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#convidar p{font-size: 1em}
+
+#amigos{
+    background-color: #000000a9;
+    color: #0000007a;
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+#busca-amigos{
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 194px;
+    height: 25px;
+    border-radius: 50px;
+    margin-top: 2.5px;
+    margin-left: 3px;
+}
+#busca-amigos i{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+#busca-amigos p{
+    font-size: 0.8em;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+#img{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+#img img{
+    width: 70px;
+    border-radius: 50px;
+}
+#tick{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+}
+#tick img{
+    margin-right: 9px;
+    width: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#mapa p{
+    margin-left: 10px;
+}
+#mapa img{
+    width: 380px;
+    height: 140px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
